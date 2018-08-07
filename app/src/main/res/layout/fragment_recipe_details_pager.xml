@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".fragments.RecipeDetailsPagerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/recipePagerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_button_background_color_disabled"
+        android:padding="10dp"
+        android:text="FILETTO DI MANZO CON TREVISANAE CIPOLLA"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+</LinearLayout>

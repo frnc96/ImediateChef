@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SecondChefv2</string>
+
+    <string name="title_recipes">Ricette</string>
+    <string name="title_prices">Prezzi</string>
+    <string name="title_info">Come funziona</string>
+    <string name="title_map">Mappa</string>
+    <string name="title_profile">Profilo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">226488148206881</string>
+    <string name="fb_login_protocol_scheme">fb226488148206881</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCT0D5M5REe78An3Kb3hv9fvJm2H6Jq5oA</string>
+
+    <string name="tab_view_desc1">A partire da <font color="red">2 ricette x 2 persone</font> che puoi scegliere ogni settimana tra quelle proposte dai nostri Chef. La spedizione e <b>gratuita</b> e l\'abbonamento puo\' essere modificato o sospeso in qualsiasi momento.</string>
+    <string name="tab_view_desc2">A partire da <font color="red">2 ricetta x 4 persone</font> che puoi scegliere ogni settimana tra quelle proposte dai nostri Chef. La spedizione e <b>gratuita</b> e l\'abbonamento puo\' essere modificato o sospeso in qualsiasi momento.</string>
+    <string name="tab_view_desc3">A partire da <font color="red">1 ricetta x 6 persone</font> che puoi scegliere ogni settimana tra quelle proposte dai nostri Chef. La spedizione e <b>gratuita</b> e l\'abbonamento puo\' essere modificato o sospeso in qualsiasi momento.</string>
+</resources>
