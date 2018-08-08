@@ -18,4 +18,5 @@
     <string name="tab_view_desc1">A partire da <font color="red">2 ricette x 2 persone</font> che puoi scegliere ogni settimana tra quelle proposte dai nostri Chef. La spedizione e <b>gratuita</b> e l\'abbonamento puo\' essere modificato o sospeso in qualsiasi momento.</string>
     <string name="tab_view_desc2">A partire da <font color="red">2 ricetta x 4 persone</font> che puoi scegliere ogni settimana tra quelle proposte dai nostri Chef. La spedizione e <b>gratuita</b> e l\'abbonamento puo\' essere modificato o sospeso in qualsiasi momento.</string>
     <string name="tab_view_desc3">A partire da <font color="red">1 ricetta x 6 persone</font> che puoi scegliere ogni settimana tra quelle proposte dai nostri Chef. La spedizione e <b>gratuita</b> e l\'abbonamento puo\' essere modificato o sospeso in qualsiasi momento.</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

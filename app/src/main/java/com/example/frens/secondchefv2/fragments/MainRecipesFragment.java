@@ -1,6 +1,7 @@
 package com.example.frens.secondchefv2.fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -13,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
 import com.example.frens.secondchefv2.R;
+import com.example.frens.secondchefv2.activities.Main2Activity;
 import com.example.frens.secondchefv2.activities.MainActivity;
 import com.example.frens.secondchefv2.adapters.RecipeAdapter;
 import com.example.frens.secondchefv2.models.Recipe;
@@ -93,13 +95,19 @@ public class MainRecipesFragment extends Fragment {
      */
     public void loadDetails(Recipe recipe){
         String recipeJson = new Gson().toJson(recipe);
-        RecipeDetailsFragment recipeDetailsFragment = RecipeDetailsFragment.newInstance(recipeJson);
+//        RecipeDetailsFragment recipeDetailsFragment = RecipeDetailsFragment.newInstance(recipeJson);
+//
+//        getFragmentManager().beginTransaction()
+//                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+//                .replace(R.id.recipe_details_container, recipeDetailsFragment)
+//                .addToBackStack(null)
+//                .commit();
 
-        getFragmentManager().beginTransaction()
-                .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
-                .replace(R.id.recipe_details_container, recipeDetailsFragment)
-                .addToBackStack(null)
-                .commit();
+        Intent intent = new Intent(getActivity(), Main2Activity.class);
+        Bundle b = new Bundle();
+        b.putString("JSON", recipeJson);
+        intent.putExtras(b);
+        startActivity(intent);
     }
 
 }

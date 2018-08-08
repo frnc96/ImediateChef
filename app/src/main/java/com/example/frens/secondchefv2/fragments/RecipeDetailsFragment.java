@@ -52,7 +52,6 @@ public class RecipeDetailsFragment extends Fragment implements View.OnClickListe
         Bundle args = new Bundle();
         args.putString(RecipeDetailsFragment.ARG_JSON, recipeJson);
         fragment.setArguments(args);
-        fragment.setArguments(args);
         return fragment;
     }
 
